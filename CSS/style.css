@@ -1,0 +1,46 @@
+body {
+    background-color: #323232;
+    color: #75daad;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;  
+}
+
+/* game status section */
+.game-status {
+    margin: 50px auto 0;
+    font-size: 50px;
+    font-family: 'Carter One', cursive;
+    text-shadow: #1f1e1e 3px -1px 1px;
+    width: fit-content;
+}
+
+.winner {
+    width: fit-content;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.flag {
+    display: none;
+    color: red;
+    margin: 0 20px;
+    font-size: 1.8em;
+}
+
+/* players section */
+.players {
+    font-size: 50px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.player {
+    display: inline-block;
+    margin: 0 30px;
+    width: fit-content;
+}
+
+.dice {
+    color: red;
+    font-size: 250px;
+}
